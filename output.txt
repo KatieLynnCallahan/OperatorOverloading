@@ -1,0 +1,150 @@
+Matrix a has 2 rows and 4 columns
+
+Matrix m:
+1 2
+3 4
+
+Matrix n:
+3 1
+7 2
+
+Matrix p:
+3 1 4
+7 2 5
+
+m and mCopy are equal.
+m and n are NOT equal.
+
+iAdd = m + n
+4 3
+10 6
+
+iSub = m - n
+-2 1
+-4 2
+
+iMul = m * p
+17 5 14
+37 11 32
+
+iScalarMul = 2 * m
+2 4
+6 8
+
+iScalarMul = n * 3
+9 3
+21 6
+
+m += n
+4 3
+10 6
+
+iAdd:
+4 3
+10 6
+
+m and iAdd are equal.
+
+m -= 2 * n
+-2 1
+-4 2
+
+iSub:
+-2 1
+-4 2
+
+m and iSub are equal.
+
+m += n
+m *= n
+17 5
+37 11
+
+iMul * 2:
+34 10 28
+74 22 64
+
+m and iMul are NOT equal.
+
+m *= 10
+170 50
+370 110
+
+Matrix cm:
+(1,0) (0,1)
+(-1,0) (0,-1)
+
+Matrix cn:
+(0,1) (-1,0)
+(0,-1) (1,2)
+
+cAdd = cm + cn
+(1,1) (-1,1)
+(-1,-1) (1,1)
+
+cSub = cm - cn
+(1,-1) (1,1)
+(-1,1) (-1,-3)
+
+cMul = cm * cn
+(1,1) (-3,1)
+(-1,-1) (3,-1)
+
+cScalarMul = 4 * cm
+(4,0) (0,4)
+(-4,0) (0,-4)
+
+cScalarMul = cn * 5
+(0,5) (-5,0)
+(0,-5) (5,10)
+
+cm += cn
+(1,1) (-1,1)
+(-1,-1) (1,1)
+
+cAdd:
+(1,1) (-1,1)
+(-1,-1) (1,1)
+
+cm and cAdd are equal.
+
+cm -= 2 * cn
+(1,-1) (1,1)
+(-1,1) (-1,-3)
+
+cSub:
+(1,-1) (1,1)
+(-1,1) (-1,-3)
+
+cm and cSub are equal.
+
+cm += cn
+cm *= cn
+(1,1) (-3,1)
+(-1,-1) (3,-1)
+
+cMul:
+(1,1) (-3,1)
+(-1,-1) (3,-1)
+
+cm and cMul are equal.
+
+cm *= 10
+(10,10) (-30,10)
+(-10,-10) (30,-10)
+
+trying to make matrix j(-1,3)
+dimensions must be positive
+
+trying to make matrix k(2,0)
+dimensions must be positive
+
+trying to add 2x2 and 3x3
+dimensions do not match
+
+trying to multiply 2x2 and 3x3
+dimensions do not match
+
+trying to access row index -1
+row index out of bounds
+
