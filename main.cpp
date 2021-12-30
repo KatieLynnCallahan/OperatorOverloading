@@ -1,13 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-// File Name:      main.cpp
-//
-// Author:         Gerald gerald@cs.wisc.edu
-//                 Andy kuemmel@wisc.edu
-//
-// Description:    The main program for a4.
-//
-// IMPORTANT NOTE: You should move the /* and */ around to test your code
-///////////////////////////////////////////////////////////////////////////////
 
 #include <iostream>
 #include <complex>
