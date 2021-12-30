@@ -1,12 +1,4 @@
-//////////////////////////////////////////////
-// Your Name:  Katherine Shanahan
-// CS Email:   shanahan@cs.wisc.edu
-// CS Login:   shanahan
-// 
-// CS 368, Spring 2018
-// Matrix.hpp
-//
-//////////////////////////////////////////////
+
 
 #ifndef LECTURE9_MATRIX_HPP
 #define LECTURE9_MATRIX_HPP
